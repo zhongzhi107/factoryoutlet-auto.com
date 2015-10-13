@@ -46,7 +46,8 @@ a:visited {
 .top_bg {
   background-image: url(../images/top_bg.jpg);
   background-repeat: repeat-x;
-  height: 138px;
+  background-position: bottom;
+  height: 49px;
 }
 .top {
   width: 1205px;
@@ -899,4 +900,12 @@ a:visited {
   width: 280px;
   float: left;
 	margin-right: 5px;
+}
+.li_logotxt {
+  float: left;
+  line-height: 39px;
+  height: 39px;
+  width: 200px;
+  text-align: center;
+  display: inline;
 }
