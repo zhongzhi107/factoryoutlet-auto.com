@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,input,p,blockquote,th,td,form,p{margin:0;padding:0;}
+body,html{_background-image:url(about:blank);_background-attachment:fixed;}
+ol,ul,li,dd,dt,dl{list-style:none;}
+img{border:0;}
+input,select,textarea{font-size:12px; color:#333; font-family:'lucida grande',taho,verdana,'trebuchet ms',"宋体",sans-serif;}
+html{text-align:center;background:#F7F7F7;}
+body{min-width:950px;text-align:left; font-size:12px; color:#333;}
+
+
+
+
+
+
+
+/*-- 在线客服 --*/
+.box_os{ height:auto;  width:106px;position:fixed;right:0;top:300px;_position:absolute; z-index:9999;}
+.box_os .os_x{  margin-right:1px; float:right; position:relative; top:-50px;  cursor:pointer;  }
+.box_os .os_x a { width:13px; height:17px; display:block; background:url(../images/os20120725.gif) no-repeat;}
+.box_os .osqq{ width:104px; border:1px solid #D1D1D1; background:#F0F0F0 url(../images/os20120725.gif) no-repeat 0 -101px; clear:both; padding:35px 0 8px 0; text-align:center;}
+.box_os .osqq p{ height:auto; line-height:20px;width:104px; margin-top:8px;}
+.box_os .osqq p strong{
+	color:#666;
+	font-size: 14px;
+}
+.box_os .osqq img{ padding:7px 0 3px 0;}
+.box_os .osqq p em{ color:#999; display:block;}
+.box_os .osqq p span{ color:#547816; display:block;}
+.onlineService{ display:none;  cursor:pointer;position:fixed;right:0;top:300px;_position:absolute;}
+.onlineService a { display:block; width:25px; height:97px; background:url(../images/os20120725.gif) no-repeat -80px 0;}
+.box_os .osqq p span a{color:#547816;}
+
+
+.box_os {
+	width:146px;
+	top:192px;
+}
+.box_os .osqq {
+	width:144px;
+	background:#F0F0F0 url(../images/os20120725.gif) no-repeat 0 -101px;
+}
+.box_os .osqq p {
+width:144px;
+*padding-top:8px;
+*margin-top:0;
+}
+.box_os .qq {
+	height:45px;
+	padding-top:5px;
+	background-image: url(../images/qq.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.box_os .skype {
+	height:45px;
+	padding-top:5px;
+	background-image: url(../images/skype.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.box_os .msn {
+	height:45px;
+	padding-top:5px;
+	background-image: url(../images/msn.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.box_os .qq span,.box_os .skype span,.box_os .msn span {
+	display:block;
+	padding:14px 0 0 45px;
+	text-align: left;
+}
+.box_os .qq span a,.box_os .skype span a,.box_os .msn span a {
+	font-weight:bold;
+	color: #4a4a4a;
+}
+.onlineService {
+	top:192px;
+}
+.weibo strong { padding:0 10px;}
+.box_os .osqq p b { font-size:16px; color:#547816;}
+.box_os .osqq p em { font-style:normal;}

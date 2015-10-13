@@ -1,0 +1,19 @@
+jQuery(document).ready(function(){
+	search_href=window.location.href.split("&");
+	if(search_href.length>1){
+		prd_keyword=search_href[0].split("q=");
+		if(prd_keyword.length>1){
+			jQuery("#prd_keyword").val(decodeURI(prd_keyword[1]));
+		}
+	}
+	if(jQuery("#prdsearch_submit")){
+		jQuery("#prdsearch_submit").click(function(){
+			if(jQuery("#prd_keyword").val().length>1){						
+				url="/plus/search_en.php?q="+jQuery("#prd_keyword").val()+"&searchtype=title&kwtype=0&x=0&y=0&h=h&typeid=10";						
+				window.location.href=url;
+			}else{
+				alert("Please enter the 2 words above！");
+			}
+		});
+	}
+});
